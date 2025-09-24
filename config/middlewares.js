@@ -9,7 +9,7 @@ module.exports = [
     config: {
       headers: '*',
       // --- Use YOUR port: 8080 ---
-      origin: ['http://localhost:8080', 'http://localhost:1337'], 
+      origin: ['https://strapi-dsewebsite.onrender.com'], 
     },
   },
   'strapi::poweredBy',
