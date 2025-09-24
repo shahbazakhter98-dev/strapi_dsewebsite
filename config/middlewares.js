@@ -2,11 +2,11 @@
 
 module.exports = [
   'strapi::errors',
+  'strapi::cors', // CORS enabled
   'strapi::security',
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
       headers: '*',
       // --- Use YOUR port: 8080 ---
       origin: ['http://localhost:8080', 'http://localhost:1337'], 
